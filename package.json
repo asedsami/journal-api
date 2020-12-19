@@ -1,0 +1,19 @@
+{
+  "name": "logux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@logux/server": "^0.9.6",
+    "dotenv": "^8.2.0",
+    "node-pg-migrate": "^5.9.0",
+    "pg": "^8.5.1",
+    "pg-promise": "^10.8.1"
+  }
+}
